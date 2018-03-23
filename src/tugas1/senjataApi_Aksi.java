@@ -11,6 +11,6 @@ package tugas1;
  */
 public class senjataApi_Aksi {
     public static void main(String[] args) {
-        
+        senjataApi M4A1 = new senjataApi();
     }
 }
