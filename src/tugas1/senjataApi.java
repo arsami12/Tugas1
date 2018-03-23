@@ -16,11 +16,21 @@ public class senjataApi {
        String kapasitasPeluru;
        String warnaSenjata;
        
+       //tambahan
+       String SPACI;
+       String nama;
+       
+       //behavior
+       String caraMenembak; 
+       
        void cetakInfo(){
-           System.out.println("Akurasi       : "+jarakTembak);
-           System.out.println("Type Peluru   : "+jenisPeluru);
-           System.out.println("Berat         : "+beratSenjata);
-           System.out.println("Max Peluru    : "+kapasitasPeluru);
-           System.out.println("Warna Senjata : "+warnaSenjata);
+           System.out.println("Nama Senjata   : "+nama);
+           System.out.println("Akurasi        : "+jarakTembak);
+           System.out.println("Type Peluru    : "+jenisPeluru);
+           System.out.println("Berat          : "+beratSenjata);
+           System.out.println("Max Peluru     : "+kapasitasPeluru);
+           System.out.println("Warna Senjata  : "+warnaSenjata);
+           System.out.println("Cara Pengunaan : "+caraMenembak);
+           System.out.println(""+SPACI);
        }
     }
