@@ -12,5 +12,11 @@ package tugas1;
 public class senjataApi_Aksi {
     public static void main(String[] args) {
         senjataApi M4A1 = new senjataApi();
+        
+        M4A1.jarakTembak="710M";
+        M4A1.jenisPeluru="Timah";
+        M4A1.beratSenjata="7,13 Kg";
+        M4A1.kapasitasPeluru="30 s/d 80 Peluru per satu slot/magazine";
+        M4A1.warnaSenjata="Hitam";
     }
 }
