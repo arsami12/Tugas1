@@ -18,5 +18,7 @@ public class senjataApi_Aksi {
         M4A1.beratSenjata="7,13 Kg";
         M4A1.kapasitasPeluru="30 s/d 80 Peluru per satu slot/magazine";
         M4A1.warnaSenjata="Hitam";
+        
+        M4A1.cetakInfo();
     }
 }
