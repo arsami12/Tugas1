@@ -10,5 +10,17 @@ package tugas1;
  * @author USER
  */
 public class senjataApi {
-    
-}
+       String jarakTembak;
+       String jenisPeluru;
+       String beratSenjata;
+       String kapasitasPeluru;
+       String warnaSenjata;
+       
+       void cetakInfo(){
+           System.out.println("Akurasi       : "+jarakTembak);
+           System.out.println("Type Peluru   : "+jenisPeluru);
+           System.out.println("Berat         : "+beratSenjata);
+           System.out.println("Max Peluru    : "+kapasitasPeluru);
+           System.out.println("Warna Senjata : "+warnaSenjata);
+       }
+    }
